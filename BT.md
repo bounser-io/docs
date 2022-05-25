@@ -32,7 +32,7 @@ Check `bt`
 bt version
 ```
 
-If you see a system popup saying: `"bt" can't be opened because Apple cannot check it for malicious software.`, then go to System Preferences -> Security & Privacy -> General, and click the "Allow" button at the bottom to allow the `bt` binary to execute.
+If you see a system popup saying: `"bt" can't be opened because Apple cannot check it for malicious software.`, then go to System Preferences -> Security & Privacy -> General, and click the "Allow Anyway" button at the bottom to allow the `bt` binary to execute. (More info in [Installation Issues on Mac](#installation-issues-on-mac))
 
 ## Usage
 ### Commands Overview
@@ -49,5 +49,29 @@ Here are the available commands of the `bt` tool (v1.0):
 
 
 ## Issues or Questions
+
+### Installation Issues on Mac
+On Mac, once you download the `bt` tool binary, make sure to allow Apple to trust the tool. When running bt for the first time:
+
+Step 1) Click "OK"
+<br>
+<img src="https://bounser-assets.s3.us-west-2.amazonaws.com/bt_m1_notice1.png" width="200">
+
+Step 2) Open System Preferences -> Security & Privacy -> Click "Allow Anyway"
+<br>
+<img src="https://bounser-assets.s3.us-west-2.amazonaws.com/bt_m1_notice2.png" width="400">
+
+Step 3) Run `bt` tool again and click "Open" on the prompt
+<br>
+<img src="https://bounser-assets.s3.us-west-2.amazonaws.com/bt_m1_notice3.png" width="200">
+
+
+### Installation Issues on Windows
+When downloading, make sure to keep the binary if you are using Microsoft Edge:
+
+<img src="https://bounser-assets.s3.us-west-2.amazonaws.com/bt_keep_on_edge.png" width="200">
+
+
+### Other Issues
 
 If you find an issue with bt tool or have a question, please contact us at onbounser@gmail.com. For live support, click "Contact Us" on the Bounser dashboard [https://bounser.io/app](https://bounser.io/app).
