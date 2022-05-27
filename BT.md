@@ -43,6 +43,7 @@ Here are the available commands of the `bt` tool (v1.0):
 * `bt <command> --help`: describes in detail how to use a specific command.
 * `bt verion`: shows the version of the `bt` tool
 * `bt run <target-command>`: run a specific target command (e.g., `aws s3 ls`). You can pass in a `--role` flag to specify the role you want to run the target command as (e.g., `bt run --role <role-name> <target-command>`). The `--role` flag takes precedence over the role you assume with `bt assume <role-name>`.
+    * If you need to use a flag within the `<target-command>`, then you can use a `--` to separate out the `<target-command>` portion from the bt command portion. E.g., `bt run --role <role-name> -- aws s3 ls <path> --recursive`. In this command, the `--recursive` flag will be associated with `aws s3 ls`, not with `bt run`.
 * `bt assume <role-name>`: assume a (default) role so that you don't have to specify a role each time you run `bt run`.
 * `bt login`: log in to Bounser to get your token. You need a token to assume a role or run a target command.
 * `bt ls`: list all available AWS roles to which you have permission.
