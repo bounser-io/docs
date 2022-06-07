@@ -37,7 +37,7 @@ If you see a system popup saying: `"bt" can't be opened because Apple cannot che
 ## Usage
 ### Commands Overview
 
-Here are the available commands of the `bt` tool (v1.0):
+Here are the available commands of the `bt` tool:
 
 * `bt --help`: shows all the commands and how to use them.
 * `bt <command> --help`: describes in detail how to use a specific command.
