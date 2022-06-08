@@ -13,9 +13,7 @@ Make sure you have the following installed:
 
 
 ### Installation
-1. Download [bt](https://bounser.io/app/bt_tool) binary. Make sure you choose the right binary for your platform.
-2. Make sure the binary is executable. `chmod u+x ~/Downloads/bt`
-3. (optional) Move the binary to somewhere in your `$PATH`. `mv ~/Downloads/bt /usr/local/bin/`
+Download [bt](https://bounser.io/app/bt_tool) binary. Make sure you choose the right binary for your platform.
 
 
 ### Check installation
